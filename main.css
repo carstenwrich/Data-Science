@@ -1,0 +1,174 @@
+html{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+.btnOne {
+    text-decoration: none;
+    color: white;
+    background: #62c7cb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #413d98, #62c7cb); /* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(-90deg, #413d98, #62c7cb); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #413d98, #62c7cb); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #413d98, #62c7cb); /* Standard syntax */
+    padding: 1em 3em;
+    border-radius: 3px;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: black;
+}
+
+.navSection {
+    width: 100%;
+    display: inline-block;
+    line-height: 5.5em;
+    z-index: 2;
+    position: fixed;
+}
+.navSectionWrapper {
+    width: 80%;
+    margin: auto;
+}
+.navSectionWrapper > ul {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+.navSectionWrapper > ul > li {
+    display: inline-block;
+}
+.navSectionWrapper > ul > li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1em;
+}
+.navSectionWrapper > ul > li span {
+    color: #62c7cb;
+    font-weight: 600;
+}
+.navSectionWrapper > h1 {
+    float: left;
+    font-size: 1.75em;
+    color:white;
+}
+.navSectionWrapper > h1 span {
+    color: #62c7cb;
+    font-weight: 200;
+}
+
+.landingSection {
+    width: 100%;
+    background: url(images/Data%20Stack%20-%201920@2x-100.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.landingSectionWrapper {
+    width: 80%;
+    margin: auto;
+    padding: 3em 0 20em 0;
+}
+.landingSectionWrapper h1 {
+    font-size: 2em;
+    font-weight: 200;
+    color: white;
+    margin: 12em 3em 2em 0em;
+    line-height: 1.25em;
+}
+
+.infoSection {
+    width: 100%;
+    background: url(images/Background%202.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.infoSectionWrapper {
+    width: 90%;
+    margin: auto;
+}
+.infoRow {
+    display: flex;
+}
+.infoItem {
+    flex: 1;
+    margin: -2em 1.5em 0 1.5em;
+    border-radius: 3px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+}
+.infoItem > img {
+    width: 100%;
+}
+.infoItem > h2 {
+    text-align: center;
+    line-height: 80px;
+    font-weight: 200;
+    color: #2A2668;
+}
+.callAction {
+    padding: 9em 0em 7em 0;
+    text-align: center;
+}
+.callAction > h2 {
+    margin: 2em 0;
+}
+.callAction > h2 span {
+    font-weight: 500;
+}
+
+.linkSeciton {
+    width: 100%;
+    clear: both;
+}
+.linkSectionWrapper {
+    text-align: center;
+    padding: 0 0 5em 0;
+}
+.linkItem {
+    background-color: white;
+    border-radius: 3px;
+    padding: 1.5em;
+    width: 250px;
+    margin: 0 1em;
+    display: inline-block;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+}
+.linkItem > a {
+    color: #B8BBBC;
+    text-decoration: none;
+}
+.linkItem > img {
+    float: right;
+    margin: 2px 0 0 0;
+}
+
+.footerSection {
+    text-align: center;
+    background-color: #2A2668;
+    line-height: 5em;
+}
+.footerSection h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.25em
+}
